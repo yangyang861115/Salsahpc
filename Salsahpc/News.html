@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Research</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://bootstraptaste.com" />
+<!-- css -->
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+
+
+<!-- Theme skin -->
+<link href="skins/default.css" rel="stylesheet" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container-nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">SALSAHPC</a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="Members.html">Memebers</a></li>
+                        <li><a href="Research.html">Research</a></li>
+                        <li><a href="Publications.html">Publications</a></li>
+                        <li><a href="News.html">News</a></li>
+                        <li class="dropdown">
+                            <a href="Community.html" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Community Engagament<b class="icon-angle-down"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Collaboration.html">Collaborations</a></li>
+                                <li><a href="Careers.html">Careers and internship</a></li>
+								<li><a href="Donor.html">Donors</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="Link.html">Links</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+
+	<!-- end header -->
+    
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="index.html"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+					<li class="active">News</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+    
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<article>
+						<div class="post-image">
+							<div class="post-heading">
+								<h3><a href="#" id="DeepLearning">Deep Learning</a></h3>
+							</div>
+							<img src="img/research/deeplearning.png" alt="" />
+						</div>
+						<p>
+                        RaPyDLI will design a prototype software framework that provides highly optimized, distributed, easy-to-use implementations of the basic primitives that underlie commonly used Deep Learning (DL) modules. This can scale the platform spectrum from desktops to today’s largest supercomputers and beyond, to machines with different accelerators such as GPU and MIC chips. Because DL modules can be mixed, matched, and combined freely, a surprisingly small set of optimized operations can be used to represent a rich array of functionality useful for attacking a range of applications. We have already identified a modest number of key routines (fewer than 100) grouped into 10 broad categories that are sufficient to implement many state-of-the-art DL algorithms and have scaled them up dramatically, with the only change in user software being a requirement to call our new libraries, as shown in the accompanying figure. Our co-design process will create a middleware infrastructure that helps connect, in a highly scalable way, a wide range of exploratory DL algorithms (many of which are already implemented for single nodes) to the high-performance operations needed for DL research on distributed HPC systems. Our approach mimics the way BLAS and BLACS provided primitives to implement and extend high-level linear algebra codes.
+                        </p>
+						<div class="bottom-article">
+							<a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
+						</div>
+				</article>
+				
+                
+                <article>
+						<div class="post-image">
+							<div class="post-heading">
+								<h3><a href="#" id="IndexHBased">IndexHBased</a></h3>
+							</div>
+							<img src="img/research/IndexHBased.jpg" alt="" />
+						</div>
+						<p>
+                        In general, IndexedHBase uses HBase as the underlying storage platform, and provides users with the added flexibility to define the most suitable index structures to facilitate their queries about data. Both original data and index data are stored in HBase tables, and users can define customized index structures through an XML configuration file, as illustrated in Figure 1. Each index structure is implemented as one index table, and IndexedHBase can automatically generate records for the index tables by processing data from the source data tables, following the rules defined in the configuration file.
+                        </p>
+						<div class="bottom-article">
+							<a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
+						</div>
+				</article>
+                
+				<article>
+						<div class="post-image">
+							<div class="post-heading">
+								<h3><a href="#" id="Harp">Harp</a></h3>
+							</div>
+							<img src="img/research/Harp.jpg" alt="" />
+						</div>
+						<p>
+                        Harp is a collective communication library which can be plugged into Hadoop (tested on version 1.2.1 and 2.2.0). With this plug-in, MapReduce jobs can be transformed to Map-Collective jobs and users can invoke efficient in-memory collective communication directly in map tasks.
+                        </p>
+						<div class="bottom-article">
+							<a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
+						</div>
+				</article>
+				<div id="pagination">
+					<span class="all">Page 1 of 2</span>
+					<span class="current">1</span>
+					<a href="#" class="inactive">2</a>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<aside class="right-sidebar">
+				
+				<div class="widget">
+					<h5 class="widgetheading">Popular tags</h5>
+					<ul class="tags">
+						<li><a href="#DeepLearning">Deep Learning</a></li>
+						<li><a href="#IndexHBased">IndexedHbase</a></li>
+						<li><a href="#Harp">Harp</a></li>
+					</ul>
+				</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+	</section>
+  
+  <footer>
+		<div class="copyright">
+			<p align="center">
+				<span>&copy;  2012-2015 The Trustees of Indiana University, All Rights Reserved.</span>
+             </p>
+		</div>
+</footer>
+
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
