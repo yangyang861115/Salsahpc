@@ -1,2 +1,0 @@
-# Salsahpc
-CS center website
